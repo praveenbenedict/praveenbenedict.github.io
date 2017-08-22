@@ -57,17 +57,17 @@ sr.reveal("#about-me .section-heading", {
 sr.reveal("#about-me p", {
     duration : 1000,
     origin : "left",
-    distance : "100px"
+    // distance : "50px"
 });
 sr.reveal(".social", {
     duration : 1000,
-    origin : "right",
-    distance : "100px"
+    origin : "left",
+    // distance : "100px"
 });
 sr.reveal(".portfolio-image", {
     duration : 1000,
-    origin : "left",
-    distance : "100px"
+    origin : "right",
+    distance : "50px"
 });
 sr.reveal(".portfolio-name", {
     duration : 1000,
